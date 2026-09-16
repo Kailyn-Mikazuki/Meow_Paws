@@ -1,0 +1,92 @@
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Baloo 2", sans-serif;
+
+  background: radial-gradient(
+    circle at 150%,
+    #5a478f,
+    #302b6b,
+    #191d4d,
+    #090d29
+  );
+}
+
+form  {
+  
+  width: 80%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25),
+    0 0 8px hwb(258 55% 6%),
+    0 0 18px mistyrose;
+  align-items:center;
+  background: cornsilk;  
+  border: 3px solid mistyrose;
+  border-radius: 360px;
+  
+  
+  max-width: 400px;
+  
+  padding: 25px;
+}
+  
+ input {
+  background: #e9edff;
+  color:#8b82a8;
+  width : 50%;
+  padding: 5px 50px;
+  border-radius: 20px;
+  border-color: pink;
+  font-family: "Baloo 2", sans-serif;
+  
+}
+
+#submit{
+  background: crimson;
+  color: lavenderblush;
+  border-radius: 30px;
+  border-color: pink;
+  padding: 10px 30px;
+  font-family: "Baloo 2", sans-serif;
+}
+
+label {
+  color:palevioletred;
+  
+}
+
+input:focus {
+  background: lavenderblush;
+  color: lightsalmon;
+  outline : none;
+}
+
+h1{
+  border-radius: 30px;
+  background:lemonchiffon;
+  color:hwb(335 4% 9%);
+  padding: 5px 15px;
+  max-width: 170px;
+  border:2px solid hwb(258 55% 6%);
+  text-align: center;
+  box-shadow: 0 0 8px hwb(258 55% 6%),
+    0 0 18px hwb(258 55% 6%);
+}
+
+a {
+  color: hwb(311 72% 11%);
+  font-family: "Baloo 2", sans-serif;
+
+  background: mistyrose;
+
+  border-radius: 30px;
+  border: 2px solid hwb(325 87% 0%);
+
+  padding: 3px 10px;
+
+  text-decoration: none;
+}
