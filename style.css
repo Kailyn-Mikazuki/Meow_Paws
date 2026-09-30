@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Baloo 2", sans-serif;
+
+    background:
+        radial-gradient(
+            circle at 85% 15%,
+            #5d3c91 0%,
+            #38206b 30%,
+            #1d1245 62%,
+            #090720 100%
+        );
+
+    color: white;
+
+    overflow: hidden;
+}
+
+
+/* Main launcher */
+
+.launcher {
+    width: 88%;
+    max-width: 430px;
+
+    padding: 42px 25px;
+
+    text-align: center;
+
+    border: 1px solid rgba(212, 175, 55, 0.65);
+    border-radius: 28px;
+
+    background: rgba(17, 10, 43, 0.55);
+
+    box-shadow:
+        0 0 35px rgba(103, 70, 170, 0.35),
+        inset 0 0 25px rgba(255, 255, 255, 0.03);
+
+    backdrop-filter: blur(12px);
+}
+
+
+/* Shield */
+
+.security-icon {
+    width: 76px;
+    height: 76px;
+
+    margin: 0 auto 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 38px;
+
+    border: 2px solid #d4af37;
+    border-radius: 50%;
+
+    background: rgba(212, 175, 55, 0.08);
+
+    box-shadow:
+        0 0 20px rgba(212, 175, 55, 0.25);
+}
+
+
+/* Small title */
+
+.system-label {
+    margin: 0;
+
+    color: #d4af37;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+}
+
+
+/* Main heading */
+
+h1 {
+    margin: 8px 0 5px;
+
+    font-size: 38px;
+    line-height: 0.95;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+h1 span {
+    color: #d4af37;
+}
+
+
+/* Subtitle */
+
+.subtitle {
+    margin: 18px 0 20px;
+
+    color: #c9c1dd;
+
+    font-size: 16px;
+}
+
+
+/* Gold divider */
+
+.gold-line {
+    width: 80px;
+    height: 2px;
+
+    margin: 0 auto 28px;
+
+    background: #d4af37;
+
+    box-shadow:
+        0 0 10px rgba(212, 175, 55, 0.7);
+}
+
+
+/* Enter button */
+
+.enter-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    min-width: 190px;
+
+    padding: 12px 22px;
+
+    color: #241447;
+    background: #d4af37;
+
+    border: 2px solid #f1d56a;
+    border-radius: 30px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    box-shadow:
+        0 0 18px rgba(212, 175, 55, 0.3);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.enter-button span {
+    font-size: 21px;
+}
+
+.enter-button:active {
+    transform: scale(0.96);
+}
+
+
+/* Bottom text */
+
+.version {
+    margin: 24px 0 0;
+
+    color: #81789e;
+
+    font-size: 12px;
+    letter-spacing: 0.5px;
+  }
